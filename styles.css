@@ -15,6 +15,10 @@ body {
 MAIN
 *******************************************************************/
 
+main {
+  margin-top: 2%;
+}
+
 .timeline-ul {
   width: 75%;
   margin: 0 auto;
@@ -104,6 +108,33 @@ h2 {
   background-color: #fff;
   height: .5px;
   border: 0;
+}
+
+.light-circle {
+  height: 54px;
+  width: 54px;
+  position: relative;
+  left: 28.54%;
+  top: 50%;
+  background-color: #afdcf8;
+  border-radius: 50%;
+}
+
+.dark-circle {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  top: 50%;
+  background-color: #3594cb;
+  border-radius: 50%;
+}
+
+.fa {
+  position: relative;
+  left: 28.54%;
+  top: 1%;
+  color: #3594cb;
+  border: 5px;
 }
 
 .timeline-descrip p {
