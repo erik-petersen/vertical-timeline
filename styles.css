@@ -1,0 +1,15 @@
+html {
+  background-color: #fff;
+}
+
+body {
+  width: 100%;
+}
+
+.timeline-ul {
+  width: 80%;
+}
+
+.timeline-ul li {
+  width: 100%;
+}
