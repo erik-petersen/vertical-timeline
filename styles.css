@@ -8,6 +8,7 @@ BODY
 
 body {
   width: 100%;
+  font-family: verdana, sans-serif;
 }
 
 /*******************************************************************
@@ -15,14 +16,15 @@ MAIN
 *******************************************************************/
 
 .timeline-ul {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
-    height: 1000px;
-    z-index: 1;
+  /*height: 1000px;*/
+  /*z-index: 1;*/
 }
 
 .timeline-ul li {
   width: 100%;
+  position: relative;
   /* remove this at the end */
   background: green;
 }
@@ -43,8 +45,13 @@ TIME
 .timeline-time span {
   display: block;
   text-align: right;
+  padding-right: 5%;
   /* remove this at the end */
   background: blue;
+}
+
+.li-time {
+  color: #3594cb;
 }
 
 /*******************************************************************
@@ -54,6 +61,7 @@ TIMELINE ICON AND DIVIDING LINE
 .vertical-line {
     transform: rotate(90deg);
     position: relative;
+    left: auto;
     left: -25%;
     background: #afdcf8;
     border: 0;
@@ -66,3 +74,12 @@ TIMELINE ICON AND DIVIDING LINE
 /*******************************************************************
 TIMELINE-DESCRIP
 *******************************************************************/
+
+.timeline-descrip {
+  width: 65%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  clear: both;
+  background-color: #3594cb;
+}
