@@ -15,12 +15,14 @@
         <ul class="timeline-ul">
           <!-- each list item will be one row and contain the date, time, icon, and heading w/paragraph -->
           <li>
-            <time datetime="2013-04-10T18:30">
-              <span>4/10/13</span>
-              <span>18:30</span>
-            </time>
+            <div class="time-wrapper">
+              <time datetime="2013-04-10T18:30" class="timeline-time">
+                <span>4/10/13</span>
+                <span>18:30</span>
+              </time>
+          </div>
             <i class="fa fa-mobile" aria-hidden="true"></i>
-            <div>
+            <div class="timeline-descrip">
               <h2>Ricebean black-eyed pea</h2>
               <hr>
               <p>The ship's all yours. If the scanners pick up anything, report it immediately. All right, let's go. Hey down there,
@@ -31,6 +33,7 @@
                  Imperial computer network.</p>
             </div>
           </li>
+          <hr class="vertical-line">
         </ul>
       </main>
     </div>

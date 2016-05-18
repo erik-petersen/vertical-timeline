@@ -2,14 +2,67 @@ html {
   background-color: #fff;
 }
 
+/*******************************************************************
+BODY
+*******************************************************************/
+
 body {
   width: 100%;
 }
 
+/*******************************************************************
+MAIN
+*******************************************************************/
+
 .timeline-ul {
   width: 80%;
+  margin: 0 auto;
+    height: 1000px;
+    z-index: 1;
 }
 
 .timeline-ul li {
   width: 100%;
+  /* remove this at the end */
+  background: green;
 }
+
+/*******************************************************************
+TIME
+*******************************************************************/
+
+.time-wrapper {
+    width: 25%;
+}
+
+.timeline-time {
+  /* remove this at the end */
+  background: red;
+}
+
+.timeline-time span {
+  display: block;
+  text-align: right;
+  /* remove this at the end */
+  background: blue;
+}
+
+/*******************************************************************
+TIMELINE ICON AND DIVIDING LINE
+*******************************************************************/
+
+.vertical-line {
+    transform: rotate(90deg);
+    position: relative;
+    left: -25%;
+    background: #afdcf8;
+    border: 0;
+    height: 10px;
+
+    z-index: -1;
+}
+
+
+/*******************************************************************
+TIMELINE-DESCRIP
+*******************************************************************/
